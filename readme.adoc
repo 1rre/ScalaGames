@@ -1,0 +1,18 @@
+= Scala Games
+== About
+These were a few games I made in Scala for learning graphical programming. They run on AWT via the https://github.com/regb/scala-game-library[Scala Game Library]. I hope to switch the existing games to using pure AWT at some point as well as creating some original games however my focus is on https://github.com/tjm1518/simearth[Simearth] and university studies at the moment.
+
+== Dependencies
+Requires Scala Game Library to be installed to run. This must be manually put in your local ivy folder as SGL is not available via an online repository.
+
+== 2048
+An interactive and mostly complete recreation of 2048. I need to sort out the font & maybe improve the scoring.
+
+== Snake
+A recreation of snake, I could maybe improve the scoring but it's otherwise complete
+
+== Nim
+A graphical demonstration of 2 computer players playing Nim. I need to add user input to this one however the algorithms for turn taking and detecting victories are complete.
+
+== Simearth
+Initially I was going to remake Simearth in Scala, this is as far as I got before I decided to use Elixir instead. I've kept it as it contains useful references in how to initialise an AWT instance.

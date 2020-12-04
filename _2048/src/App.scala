@@ -3,9 +3,9 @@ package _2048
 package core
 
 import sgl._
-import sgl.util._
+import util._
 
-trait AbstractApp extends MainScreenComponent {
+trait AbstractApp extends MainScreenComponent with PartsResourcePathProvider {
   this: GameApp with InputHelpersComponent =>
 
   override def startingScreen: GameScreen = new MainScreen
